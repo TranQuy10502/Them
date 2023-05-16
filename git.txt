@@ -1,0 +1,23 @@
+
+
+sử dụng git
+-Đầu tiên vào github tạo một kho lưu trữ mới
+
+b1 vào git Bash
+-> sau đó chạy lệnh git: git config --global user.name "Ten Git" enter
+-> tiếp theo chạy email: git config --global user.email mail git enter
+->tiếp theo chạy email: git config --list
+ Thoát ứng dụng git Bash
+
+B2 tạo 1 thư thư mục mới và chạy ứng dụng git Bash Here
+-> đầu tiền chạy lệnh : git init > enter
+-> tiếp theo vào git cá nhân copy ($ git remote add origin https://github.com/TranQuy10502/BanHangTraicay.git) đã tạo trước đó
+và chạy> enter
+-> tiếp theo chạy : git remote -v > enter
+-> sau đó copy các tài liệu mình cần vào thư mục mới mà mình đã tạo trước đó
+và chạy lệnh: git add .
+-> bước tiếp theo chạy lệnh: git commit -m"ten minh muon" > enter
+-> cuối cùng chạy lênh: git push origin master
+thành cônng  * [new branch]      master -> master thì xuất hiện đoạn mã như vậy 
+và vào gits tải lại trang
+
